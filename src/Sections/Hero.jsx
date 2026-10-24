@@ -2,8 +2,7 @@ import { Star } from 'lucide-react'
 import { Animated } from '../Component/Animated'
 import { site } from '../data/data'
 
-const avatars = ['/assets/user-1.jpeg', '/assets/user-2.jpeg', '/assets/user-3.jpeg', '/assets/user-4.jpeg']
-
+const avatars = ['/assets/user1.png', '/assets/user2.png', '/assets/user3.png', '/assets/user4.png']
 export default function Hero() {
   return (
     <section id="top" className="relative flex min-h-screen items-center justify-center px-auto">
